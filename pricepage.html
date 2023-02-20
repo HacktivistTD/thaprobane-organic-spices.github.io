@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="">
+     
+      <label for="weight">   Item Weight:</label>
+        <select type="text" name="number" id="weight">
+          <option>50</option>
+          <option>100</option>
+          <option>250</option>
+          <option>500</option>
+        <input type="button" value="Cube Value" onclick="sum()">
+    </form>
+	
+    <script>
+        function sum() {
+            var x;
+            var weight=document.getElementById("weight").value;
+			var weight=parseInt(weight);
+			x=weight*0.07;
+            document.write(x);
+		
+
+        
+    </script>
+</body>
+</html>

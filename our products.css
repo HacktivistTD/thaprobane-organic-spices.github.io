@@ -1,0 +1,69 @@
+body{background-color:black}
+
+#products{display:grid;
+          grid-template-columns:1fr 1fr 1fr 1fr;
+          grid-gap: 0.5rem;    
+          grid-template-areas:
+          "a b c d "
+          "e f g h"
+
+                  }
+.a1{
+  grid-area: a;
+}    
+.a2{
+  grid-area: b;
+}  
+.a3{
+  grid-area: c;
+}  
+.a4{
+  grid-area: d;
+}  
+.a5{
+  grid-area: e;
+}  
+.a6{
+  grid-area: f;
+}     
+.a7{
+  grid-area: g;
+} 
+.a8{
+  grid-area: h;
+}   
+
+
+#topics{ padding:30px;
+         word-spacing:05px;
+         text-align:center;
+         font-family:comic sans-serif; 
+         color:wheat;
+         font-weight: bold;
+         font-size: 60px;
+         font-style: italic;}                 
+#topic{
+                 padding:30px;
+                  word-spacing:05px;
+                  text-align:center;
+                  font-family:comic sans-serif; 
+                  color:red;
+                  font-weight: bold;
+                  font-style: italic;
+                      
+                  }
+#para{
+
+                    padding:25px;
+                    word-spacing:05px;
+                    text-align:center;
+                    font-family:Comic sans-serif; 
+                    color:yellow;
+                    font-weight: bold;
+                    font-style: italic;
+                      
+                  }   
+img{width:300px;
+    height:200px;
+    border-radius: 10%;}     
+                        

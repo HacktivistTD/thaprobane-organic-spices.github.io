@@ -1,0 +1,176 @@
+.down {
+  background-image: url(appleside.gif);
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+}
+.para_one {
+  font-size: 20px;
+  font-family: Comic sans MS, sans-serif;
+  color: red;
+  font-weight: bold;
+}
+
+.para_two {
+  font-size: 20px;
+  font-family: Comic sans MS, sans-serif;
+  color: orange;
+  font-weight: bold;
+}
+.para_three {
+  font-size: 20px;
+  font-family: Comic sans MS, sans-serif;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+body {
+  background-image: url("images.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 80%;
+  background-color: black;
+}
+img {
+  border-radius: 5%;
+}
+#divide_page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#brand_img {
+  width: 40%;
+  height: 80%;
+  align: center;
+}
+
+.container {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  margin-top: calc(400%);
+  position: relative;
+  display: inline-block;
+  width: 277px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 0.045em;
+}
+
+.btn svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btn svg rect {
+  //stroke: #EC0033;
+  stroke-width: 4;
+  stroke-dasharray: 353, 0;
+  stroke-dashoffset: 0;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.btn span {
+  background: rgb(255, 130, 130);
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 130, 130, 1) 0%,
+    rgba(225, 120, 237, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 130, 130, 1) 0%,
+    rgba(225, 120, 237, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 130, 130, 1) 0%,
+    rgba(225, 120, 237, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn:hover svg rect {
+  stroke-width: 4;
+  stroke-dasharray: 196, 543;
+  stroke-dashoffset: 437;
+}
+footer {
+  padding: 80px;
+  background-color: black;
+}
+
+#qr {
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  margin-left: 65px;
+}
+#footer_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-self: auto;
+}
+#footer_para {
+  font-size: 15px;
+  font-family: Comic sans MS, sans-serif;
+  color: yellowgreen;
+  text-align: center;
+  font-weight: 900;
+}
+#payments {
+  width: 175px;
+  height: 100px;
+}
+
+.sociais ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+#social_img {
+  width: 45px;
+  height: 25px;
+}
+.address ul li {
+  list-style: none;
+  color: antiquewhite;
+  font-weight: 900;
+  font-size: 10px;
+}
+#shipping {
+  width: 140px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+#return {
+  width: 100px;
+  height: 70px;
+  margin-left: 30px;
+}
+#vission {
+  width: 150px;
+  height: 65px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
